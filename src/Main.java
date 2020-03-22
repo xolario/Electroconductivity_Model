@@ -9,6 +9,7 @@ public class Main {
          * 1 - size of the structure
          */
         Structure structure = new Structure(Paths.get(args[0]), Integer.parseInt(args[1]));
+        structure.markNodes(3);
         System.out.format(structure.toString());
     }
 }
